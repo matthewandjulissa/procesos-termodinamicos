@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+}
+
+/* Barra de navegación */
+nav {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Área principal del contenido */
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para cada sección de ley en la página principal */
+.ley {
+    border: 2px solid red;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.ley h3 {
+    margin-top: 0;
+}
+
+.ley-img {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid red;
+    margin-top: 10px;
+}
